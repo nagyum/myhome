@@ -1,0 +1,172 @@
+@font-face {
+      src : url("../fonts/HKGrotesk-Regular.ttf");
+      font-family: "jua"
+}
+@font-face {
+      src : url("../fonts/NanumGothic.ttf");
+      font-family: "nanum"
+}
+
+body {
+    font-family: "jua";
+}
+
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+#menu{
+  width: 350px;
+  background-color: black;
+  border-right: 1px solid black;
+  position: fixed;
+  height:100%;
+}
+#menu li{
+  display: block;
+  font-size:25px;
+  margin:20px;
+  color: white;
+}
+#image img {
+  padding-left:350px;
+	width: 100%;
+	height: 110%;
+}
+#image .text {
+	padding: 15px;
+	text-align: right;
+	position: absolute;
+	top: 20%;
+	left: 40%;
+	transform: translate( -50%, -50% );
+}
+.text h1{
+  font-size: 60px;
+}
+
+.bucketlist{
+  padding-left:400px;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+
+.updown{
+  padding-left:350px;
+  display: inline;
+  display: flex;
+}
+
+
+#project1 h2 {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project1 h3 {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project1 img {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+.updown ul li{
+  font-family: "nanum";
+  font-size: 23px;
+  font-weight: bold;
+}
+#project2{
+  align: right;
+  padding: 10px;
+  border-left: thin solid black;
+  height: 800px;
+}
+#project2 h2 {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project2 h3 {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project2 video {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project3{
+  align: right;
+  padding: 10px;
+  border-left: thin solid black;
+  height: 800px;
+}
+#project3 h2 {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project3 h3 {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+#project3 img {
+  margin-left: 40px;
+  padding-right: 100px;
+}
+
+.container {
+  padding-left:390px;
+  display: flex;
+}
+.contact{
+  padding-right: 30px;
+}
+.contact h2{
+  font-size: 30px;
+}
+.address {
+  align: right;
+  padding: 30px;
+  border-left: thin solid black;
+  height: 100%;
+}
